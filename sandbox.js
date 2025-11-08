@@ -38,3 +38,19 @@ while( i< names.length){
 //do while loop (ensures the code runs atleast once even if the condition is false)
 
 let i = 5;
+do{
+    console.log('val of i is:', i);
+    i++;
+} while (i < 5);
+
+
+
+//conditional statements if...statement
+const age = 22;
+if(age > 20){
+    console.log('You,re over 20 years old');
+}
+const ninjas=['shaun', 'ryu', 'chun-li', 'yoshi'];
+if(ninjas.length > 3){
+    console.log("that's a lot of ninjas");// used double quote because our sentence already has a single quote in that's
+}
