@@ -65,7 +65,7 @@ if(password.length >= 12){
  }   else{
         console.log('password is not long enough')
     }
-        */
+       
 //how to satisfy a compination of different condions all at once
 //logical operators- OR || and AND &&
 
@@ -77,3 +77,30 @@ if(password.length >= 12 && password.includes('@')){
  }   else{
         console.log('password is not strong enough');
     }
+ */
+//logical NOT(!)
+let user = false;
+
+if(!user){
+    console.log('you must be logged in to continue');
+}
+
+console.log(!true);
+console.log(!false);
+
+//break and continue
+//break
+const score = [50,25,0,30,100,20,10];
+
+for(let i = 0; i < score.length; i++){
+    if(score[i]===0){
+        continue; //continue skips 0 and continues listing
+    }
+    console.log('your score:', score[i]);
+    if(score[i]===100){
+        console.log('congrats, you got the top score!');
+        break;//breaks the scores after 100 hence do not continue counting after 100
+    }
+}
+
+
