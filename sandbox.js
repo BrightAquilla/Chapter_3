@@ -77,7 +77,7 @@ if(password.length >= 12 && password.includes('@')){
  }   else{
         console.log('password is not strong enough');
     }
- */
+
 //logical NOT(!)
 let user = false;
 
@@ -102,5 +102,25 @@ for(let i = 0; i < score.length; i++){
         break;//breaks the scores after 100 hence do not continue counting after 100
     }
 }
+ */
+// Switch statement
+const grade= 'A';
+switch(grade){
+    case 'A':
+        console.log('you got an A!');
+    case 'B':
+        console.log('you got an B!');
+    case 'C':
+        console.log('you got an C!');
+    case 'D':
+        console.log('you got an D!');
+    case 'E':
+        console.log('you got an E!'); 
+    default:
+        console.log('not a valid grade');   
+
+}
+    
+        
 
 
