@@ -34,7 +34,7 @@ while( i< names.length){
     console.log(names[i]);
     i++;
 }
-*/
+
 //do while loop (ensures the code runs atleast once even if the condition is false)
 
 let i = 5;
@@ -54,3 +54,15 @@ const ninjas=['shaun', 'ryu', 'chun-li', 'yoshi'];
 if(ninjas.length > 3){
     console.log("that's a lot of ninjas");// used double quote because our sentence already has a single quote in that's
 }
+*/
+
+//if...else statement
+const password= 'p@assword1234';
+if(password.length >= 12){
+    console.log('that password is strong enough!!')
+}else if (password.length >= 8){
+    console.log('that password is long enough!');//else if statemen
+ }   else{
+        console.log('password is not long enough')
+    }
+//how to satisfy a compination of different condions all at once
