@@ -54,7 +54,7 @@ const ninjas=['shaun', 'ryu', 'chun-li', 'yoshi'];
 if(ninjas.length > 3){
     console.log("that's a lot of ninjas");// used double quote because our sentence already has a single quote in that's
 }
-*/
+
 
 //if...else statement
 const password= 'p@assword1234';
@@ -65,4 +65,15 @@ if(password.length >= 12){
  }   else{
         console.log('password is not long enough')
     }
+        */
 //how to satisfy a compination of different condions all at once
+//logical operators- OR || and AND &&
+
+const password= 'p@ssword1234';
+if(password.length >= 12 && password.includes('@')){
+    console.log('password is mighty strong!!');
+}else if (password.length >= 8 || password.includes('@')&& password.length > 5){
+    console.log('password is strong enough!!');//else if statemen
+ }   else{
+        console.log('password is not strong enough');
+    }
